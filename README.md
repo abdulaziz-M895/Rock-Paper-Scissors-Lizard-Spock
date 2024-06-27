@@ -15,12 +15,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Take a look](https://your-solution-url.com)
-- Live Site URL: [Take a look](https://your-live-site-url.com)
+- Solution URL: [Take a look](https://www.frontendmentor.io/solutions/rock-paper-scissors-lizard-spock-1hCsQtAaT2)
+- Live Site URL: [Take a look](https://abdulaziz-m895.github.io/Rock-Paper-Scissors-Lizard-Spock/)
 
 ## My process
 
@@ -29,6 +29,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Vanilla JavaScript
 
 ## Code Details
 

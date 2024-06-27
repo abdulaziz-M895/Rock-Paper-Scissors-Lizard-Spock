@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors, Lizard, Spock</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: auto;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <img src="images/logo-bonus.svg" alt="logo" />
+        <div class="score">
+          <span>SCORE</span>
+          <h1>0</h1>
+        </div>
+      </header>
+      <article class="">
+        <button class="pentagon">
+          <img src="images/bg-pentagon.svg" alt="pentagon" class="pentagon" />
+        </button>
+        <button data-type="scissors" class="scissors">
+          <img src="images/icon-scissors.svg" alt="scissors" />
+        </button>
+        <button data-type="paper" class="paper">
+          <img src="images/icon-paper.svg" alt="paper" />
+        </button>
+        <button data-type="rock" class="rock">
+          <img src="images/icon-rock.svg" alt="rock" />
+        </button>
+        <button data-type="lizard" class="lizard">
+          <img src="images/icon-lizard.svg" alt="lizard" />
+        </button>
+        <button data-type="spock" class="spock">
+          <img src="images/icon-spock.svg" alt="spock" />
+        </button>
+      </article>
+      <button class="rules-btn">RULES</button>
+    </main>
+
+    <div class="rules">
+      <div class="heading">
+        <h3>RULES</h3>
+        <img src="images/icon-close.svg" alt="close button" />
+      </div>
+      <img src="images/image-rules-bonus.svg" alt="rules image" />
+    </div>
+    <div class="overlay"></div>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.frontendmentor.io/profile/abdulaziz-M895"
+        target="_blank"
+        >Abdulaziz</a
+      >.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

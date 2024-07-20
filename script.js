@@ -9,17 +9,26 @@ const score = document.querySelector(".score h1");
 rulesBtn.addEventListener("click", () => {
   rules.classList.add("display-flex");
   overlay.classList.add("display-block");
+  document.body.classList.add("min-height-100");
+  document.querySelector("main.container").classList.add("min-height-100");
+
+  setTimeout(() => {
+    document
+      .querySelector(".rules > img")
+      .scrollIntoView();
+  }, 200);
 });
 
-rulesExit.addEventListener("click", () => {
-  rules.classList.remove("display-flex");
-  overlay.classList.remove("display-block");
-});
+const hideBtns = [rulesExit, overlay];
 
-overlay.addEventListener("click", () => {
-  rules.classList.remove("display-flex");
-  overlay.classList.remove("display-block");
-});
+hideBtns.forEach((btn) =>
+  btn.addEventListener("click", () => {
+    rules.classList.remove("display-flex");
+    overlay.classList.remove("display-block");
+    document.body.classList.remove("min-height-100");
+    document.querySelector("main.container").classList.remove("min-height-100");
+  })
+);
 
 // Set initial score
 score.textContent = localStorage.getItem("score") || 0;
